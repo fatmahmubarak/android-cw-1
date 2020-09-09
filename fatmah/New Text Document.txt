@@ -1,0 +1,36 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        int a = 12;
+        int b = 13;
+        
+        System.out.println(a + b);
+        
+        int c = 32;
+        int d = 54;
+        
+        System.out.println(c * d);
+         
+        if (c == d){
+            System.out.println("false");
+        }
+        // System.out.println(c < d);
+        
+        String name = "fatmah";
+        String name2 = "saleemah";
+        
+        System.out.println(name +" "+ name2);
+     }
+}
+
+
+النواتج
+$javac HelloWorld.java
+$java -Xmx128M -Xms16M HelloWorld
+Hello World
+25
+1728
+false
+fatmah saleemah
